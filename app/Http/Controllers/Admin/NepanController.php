@@ -12,7 +12,7 @@ class NepanController extends Controller
      */
     public function index()
     {
-        //
+        return view('admin.nepan.index');
     }
 
     /**

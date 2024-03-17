@@ -29,17 +29,17 @@
             <h5>Japan</h5>
         </div></a>
 
-        <a href="./locations.html#bali" target="_blank"><div class="col-content">
+        <a href="{{route('admin.nepan.index')}}" target="_blank"><div class="col-content">
             <img src="{{asset('blog/files/l4.jpg')}}" alt="">
             <h5>Nepan</h5>
         </div></a>
 
-        <a href="./locations.html#dubai" target="_blank"><div class="col-content">
+        <a href="{{route('admin.pakistan.index')}}" target="_blank"><div class="col-content">
             <img src="{{asset('blog/files/l5.jpg')}}" alt="">
             <h5>Pakistan</h5>
         </div></a>
 
-        <a href="./locations.html#geneva" target="_blank"><div class="col-content">
+        <a href="{{route('admin.india.index')}}" target="_blank"><div class="col-content">
             <img src="{{asset('blog/files/l6.jpg')}}" alt="">
             <h5>India</h5>
         </div></a>

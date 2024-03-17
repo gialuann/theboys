@@ -12,7 +12,8 @@ class PakistanController extends Controller
      */
     public function index()
     {
-        //
+        return view('admin.pakistan.index');
+
     }
 
     /**
