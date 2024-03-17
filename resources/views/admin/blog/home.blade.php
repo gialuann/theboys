@@ -24,7 +24,7 @@
             </div>
         </a>
 
-        <a href="./locations.html#paris" target="_blank"><div class="col-content">
+        <a href="{{route('admin.japan.index')}}" target="_blank"><div class="col-content">
             <img src="{{asset('blog/files/l3.jpg')}}" alt="">
             <h5>Japan</h5>
         </div></a>

@@ -16,7 +16,7 @@
         <div class="box">
             <div class="image">
                 <img src="{{asset('blog/files/thaison.jpg')}}" alt="">
-                <h3>Taishan</h3>
+                <h3>Tàishān</h3>
             </div>
             <div class="stars">
                 <a href="#"><i class='bx bxs-star'></i></a>
@@ -27,7 +27,7 @@
             </div>
             <div class="dest-content">
                 <div class="location">
-                    <li><h4>Dongya: Taishan</h4></li>
+                    <li><h4>Tóng yǎ: tài shān</h4></li>
                 <ul class="pac-details">
                     <li>height 1.533m</li>
                     <li>Mount Tai is located in Shandong province - China with a total area of ​​426 km². Ancient people called this mountain the pillar supporting the sky. It is called Dong Nhac - the holy land of Taoism and the place of worship of Chinese imperial dynasties. Thai Son is associated with dawn - rebirth and to the ancient Chinese, this was the most sacred mountain, ranked 1 of the 5 mountains.</li>
@@ -39,7 +39,7 @@
         <div class="box">
             <div class="image">
                 <img src="{{asset('blog/files/hoason.jpg')}}" alt="">
-                <h3>Huashan</h3>
+                <h3>hé shān</h3>
             </div>
 
             <div class="stars">
@@ -52,7 +52,7 @@
         
             <div class="dest-content">
                 <div class="location">
-                    <h4>Xiya: huashan</h4>
+                    <h4>Xī yǎ: hé shān</h4>
                     <ul class="pac-details">
                         <li>height 2.083mm</li>
                         <li>Huashan is a mountain in the eastern section of the Qinling range in southern Shaanxi province, about 100 km east of Xi'an city - the ancient capital. Hoa Son is famous for its majestic beauty and the most dangerous roads in the world that many people want to try to conquer. This landscape was recognized by UNESCO as a World Natural Heritage in 1990.<br>
@@ -66,7 +66,7 @@
         <div class="box">
             <div class="image">
                 <img src="{{asset('blog/files/hanhson.jpg')}}" alt="">
-                <h3>Hanshan</h3>
+                <h3>Hán shān</h3>
             </div>
 
             <div class="stars">
@@ -79,7 +79,7 @@
 
             <div class="dest-content">
                 <div class="location">
-                    <h4>Nanya: Henshan</h4>
+                    <h4>Nán yǎ: Hán shān</h4>
                     <ul class="pac-details">
                         <li>height 1300m</li>
                         <li>Located in the Nam Nhac area of ​​Ngu Nhac, 50 km from the center of Hengyang city, Hunan province - China, Hengshan is made up of granite, steep cliffs with a height of 1,290 m, has a strange shape and includes 72 large and small mountain peaks.  <br>
@@ -93,7 +93,7 @@
         <div class="box">
             <div class="image">
                 <img src="{{asset('blog/files/hangson.jpg')}}" alt="">
-                <h3>Hengshan</h3>
+                <h3>háng shān</h3>
             </div>
 
             <div class="stars">
@@ -106,7 +106,7 @@
         
             <div class="dest-content">
                 <div class="location">
-                    <h4>beiya: Hengshan</h4>
+                    <h4>Běi yá: háng shān</h4>
                     <ul class="pac-details">
                         <li>height 2.016,1m</li>
                         <li>Hang Son, also known as Nguyen Nhac or Thuong Son, is located in Hon Nguyen district, Son Tay province - China, bordering Inner Mongolia, in the dry highlands, year-round with sunshine, wind, and dust. Legend has it that when King Shun came here to patrol his animals, he named Hang Son the Northern Swallow. <br>
@@ -119,7 +119,7 @@
         <div class="box">
             <div class="image">
                 <img src="{{asset('blog/files/nui-Langbiang.jpg')}}" alt="">
-                <h3>Dongshan</h3>
+                <h3>dōngshān</h3>
             </div>
 
             <div class="stars">
@@ -132,7 +132,7 @@
         
             <div class="dest-content">
                 <div class="location">
-                    <h4>Zhōng yīnyuè - Dongshan</h4>
+                    <h4>Zhōng yǎ: dōngshān</h4>
                     <ul class="pac-details">
                         <li>height 1.512m</li>
                         <li>Tung Son is located in Dang Phong, Zhengzhou, Henan province, China, to the north overlooking the Yellow River, to the south Lac Thuy overlooking Dinh Thuy, to the east Co Son is connected to the capital of Bien Luong of the 5 dynasties, to the west adjacent to the ancient capital Luoyang of 9 dynasties. That's why it is called "Bien Lac Bi Kinh, Ky Noi Nam Mountain", the number one famous mountain in the Central Plains.<br>

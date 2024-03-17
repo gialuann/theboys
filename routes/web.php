@@ -34,7 +34,7 @@ Route::get('admin/vietnam/index',[VietnamController::class ,'index'])->name('adm
 
 Route::get('admin/china/index',[ChinaController::class ,'index'])->name('admin.china.index');
 
-Route::get('admin/janan/index',[JapanController::class ,'index'])->name('admin.janan.index');
+Route::get('admin/japan/index',[JapanController::class ,'index'])->name('admin.japan.index');
 
 Route::get('admin/nepan/index',[NepanController::class ,'index'])->name('admin.nepan.index');
 

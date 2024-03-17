@@ -28,15 +28,15 @@
             <img src="{{asset('blog/files/logo.png')}}" class="logo" alt="Logo" title="FirstFlight Travels">
             
             <ul class="navbar">
-                <li><a href="#home">Home</a></li>
+                <li><a href="{{route('admin.blog')}}">Home</a></li>
                 <li><a href="#locations">Countries</a>
                     <ul class="sub-menu">
-                        <li><a href="#package">Vietnam</a></li>
-                        <li><a href="#package">China</a></li>
-                        <li><a href="#package">Japan</a></li>
-                        <li><a href="#package">Nepan</a></li>
-                        <li><a href="#package">Pakistan</a></li>
-                        <li><a href="#package">India</a></li>
+                        <li><a href="{{route('admin.vietnam.index')}}">Vietnam</a></li>
+                        <li><a href="{{route('admin.china.index')}}">China</a></li>
+                        <li><a href="{{route('admin.japan.index')}}">Japan</a></li>
+                        <li><a href="{{route('admin.nepan.index')}}">Nepan</a></li>
+                        <li><a href="{{route('admin.pakistan.index')}}">Pakistan</a></li>
+                        <li><a href="{{route('admin.india.index')}}">India</a></li>
                     </ul>
                 
                 </li>
