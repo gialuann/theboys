@@ -14,7 +14,7 @@ class SigninController extends Controller
         return view("client.sign-in.register");
     }
     public function store(Request $request){
-
+        return view("client.sign-in.register");
     }
 }
 
