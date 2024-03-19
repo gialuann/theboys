@@ -3,8 +3,9 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use Illuminate\Http\Request;
-
+use App\Http\Requests\Admin\User\StoreRequest;
+use App\Http\Requests\Admin\User\UpdateRequest;
+use App\Models\User;
 class UserController extends Controller
 {
     /**
@@ -12,7 +13,10 @@ class UserController extends Controller
      */
     public function index()
     {
-        //
+        $users=User::orderBy('created_at','DESC')->get();
+        return view('admin.modules.user.index',[
+            'users'=>$users
+        ]);
     }
 
     /**
@@ -20,15 +24,24 @@ class UserController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.modules.user.create');
     }
 
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request)
+    public function store(StoreRequest $request)
     {
-        //
+        $user=new User ();
+        $user->email=$request->email;
+        $user->password=bcrypt($request->password);
+        $user->status=$request->status;
+        $user->level=$request->level;
+        $user->fullname=$request->fullname;
+        $user->phone=$request->phone;
+        $user->save();
+
+        return redirect()->route('admin.user.index')->with('success','Create user successfully');
     }
 
     /**
@@ -44,13 +57,13 @@ class UserController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        return view('admin.modules.user.edit');
     }
 
     /**
      * Update the specified resource in storage.
      */
-    public function update(Request $request, string $id)
+    public function update(UpdateRequest $request, string $id)
     {
         //
     }
