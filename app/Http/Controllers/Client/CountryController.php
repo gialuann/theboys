@@ -17,11 +17,9 @@ class CountryController extends Controller
     public function japan(){
         return view("client.country.japan");
     }
-
     public function pakistan(){
         return view("client.country.pakistan");
     }
-
     public function vietnam(){
         return view("client.country.vietnam");
     }

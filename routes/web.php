@@ -20,10 +20,8 @@ use App\Http\Controllers\Admin\UserController;
 |
 */
 
-Route::get('/', function () {
-    return view('client/home/homepage');
-});
-Route::get('homepage',[BlogController::class ,'blog'])->name('client.home');
+
+Route::get('/',[BlogController::class ,'blog'])->name('client.home');
 Route::prefix('client')->name('client.')->group(function () {
     Route::prefix('country')->name('country.')->controller(CountryController::class)->group(function () {
         Route::get('china', 'china')->name('china');

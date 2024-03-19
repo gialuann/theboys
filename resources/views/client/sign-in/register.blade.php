@@ -17,7 +17,7 @@
     </div>
     <input type="text" name="phone" placeholder="Phone"/>
     <input type="text" name="address" placeholder="Address"/>
-    <input type="submit" name="submit" value="Đăng nhập" />
+    <input type="submit" name="submit" value="Register" />
     <div>
 </div>
 </form>
