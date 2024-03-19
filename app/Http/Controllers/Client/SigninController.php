@@ -13,4 +13,8 @@ class SigninController extends Controller
     public function register(){
         return view("client.sign-in.register");
     }
+    public function store(Request $request){
+
+    }
 }
+

@@ -35,6 +35,7 @@ Route::prefix('client')->name('client.')->group(function () {
     Route::prefix('sign-in')->name('sign-in.')->controller(SigninController::class)->group(function () {
         Route::get('login', 'login')->name('login');
         Route::get('register', 'register')->name('register');
+        Route::post('store', 'store')->name('store');
     });
 });
 Route::prefix('admin')->name('admin.')->group(function () {
