@@ -10,3 +10,4 @@ class BlogController extends Controller
         return view('client.home.homepage');
     }
 }
+
