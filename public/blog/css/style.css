@@ -7,9 +7,7 @@
     list-style: none;
     scroll-behavior: smooth;
 }
-
 /* Home page */
-
 .banner{
     width:100%;
     height: 100vh;
@@ -33,11 +31,7 @@
     position: relative;
     z-index: 1;
     width: 100%;
-    height: 100vh;
-    background-image: linear-gradient(rgba(1, 0, 5, 0.3),rgba(4, 1, 17, 0.3));
-
-
-
+    height: 10vh;
 }
 
 nav{
@@ -68,23 +62,41 @@ nav ul li{
     height: 40px;
     
 }
-
+.dest-content{
+    width: 700px;
+}
+.image{
+    margin-bottom: 30px; 
+    margin-top: 60px;
+}
 .navbar{
     display: flex;
     margin-right: 4vh;
+}
+.sub-menu1{
+    position: absolute;
+    left: 250px;
+    top: 0;
+    display: none;  
+}
+nav ul li:hover .sub-menu1 {
+    display: block;
 }
 .sub-menu{
     display: none;
  position: absolute;
 
 }
+
+nav ul li:hover .sub-menu {
+    display: block;
+}
+   
 nav ul li > .sub-menu {
     display: none;
     position: absolute;
   }
-nav ul li:hover .sub-menu {
-    display: block;
-  }
+
 .navbar a{
     color: white;
     font-size: 16px;
@@ -749,4 +761,79 @@ nav ul li a{
 .stars i{
     font-size: 20px;
     color: rgb(197, 167, 44);
+}
+.form-tt {
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 55px 55px 37px;
+    text-align: center;
+    padding: 250px;
+    margin: auto;
+    
+    }
+    .form-tt h2 {
+    font-size: 30px;
+    color: #1b1919;
+    line-height: 1.2;
+    text-align: center;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 30px;
+    }
+    
+    .form-tt input[type=text], .form-tt input[type=password], .form-tt input[type=email]{
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    color: #0f0f0f;
+    line-height: 1.2;
+    display: block;
+    width: calc(100% - 10px);
+    height: 45px;
+    background: 0 0;
+    padding: 10px 0;
+    border-bottom: 2px solid rgba(255,255,255,.24)!important;
+    border: 0;
+    outline: 0;
+}
+
+.form-tt input[type=text]::focus, .form-tt input[type=password]::focus {
+    color: red;
+}
+.form-tt input[type=email]::focus, .form-tt input[type=password]::focus {
+    color: red;
+}
+.form-tt input[type=password] {
+    margin-bottom: 20px;
+}
+.form-tt input::placeholder {
+    color: #131111;
+}
+.checkbox {
+    display: block;
+}
+    .form-tt input[type=submit] {
+    font-size: 16px;
+    color: #e0f00b;
+    line-height: 1.2;
+    padding: 0 20px;
+    min-width: 120px;
+    height: 50px;
+    border-radius: 25px;
+    background: #5457f1;
+    z-index: 1;
+    border: 0;
+    outline: 0;
+    display: block;
+    margin: 30px auto;
+}
+#checkbox {
+    display: inline-block;
+    margin-right: 10px;
+}
+    .checkbox-text {
+    color: #0c0b0b;
+}
+    .psw-text {
+    color: #0a0a0a;
 }

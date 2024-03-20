@@ -1,0 +1,94 @@
+eHints"; type: "QVariant" }
+        Property { name: "__styleData"; type: "QObject"; isPointer: true }
+    }
+    Component {
+        prototype: "QQuickFocusScope"
+        name: "QtQuick.Extras.Private/CircularTickmarkLabel 1.0"
+        exports: ["QtQuick.Extras.Private/CircularTickmarkLabel 1.0"]
+        exportMetaObjectRevisions: [0]
+        isComposite: true
+        defaultProperty: "data"
+        Property { name: "minimumValueAngle"; type: "double" }
+        Property { name: "maximumValueAngle"; type: "double" }
+        Property { name: "angleRange"; type: "double"; isReadonly: true }
+        Property { name: "tickmarkStepSize"; type: "double" }
+        Property { name: "tickmarkInset"; type: "double" }
+        Property { name: "tickmarkCount"; type: "int"; isReadonly: true }
+        Property { name: "minorTickmarkCount"; type: "int" }
+        Property { name: "minorTickmarkInset"; type: "double" }
+        Property { name: "labelInset"; type: "double" }
+        Property { name: "labelStepSize"; type: "double" }
+        Property { name: "labelCount"; type: "int"; isReadonly: true }
+        Property { name: "__tickmarkCount"; type: "double"; isReadonly: true }
+        Property { name: "tickmarksVisible"; type: "bool" }
+        Property { name: "minimumValue"; type: "double" }
+        Property { name: "maximumValue"; type: "double" }
+        Property { name: "stepSize"; type: "double" }
+        Method {
+            name: "valueToAngle"
+            type: "QVariant"
+            Parameter { name: "value"; type: "QVariant" }
+        }
+        Property { name: "style"; type: "QQmlComponent"; isPointer: true }
+        Property { name: "__style"; type: "QObject"; isPointer: true }
+        Property { name: "__panel"; type: "QQuickItem"; isPointer: true }
+        Property { name: "styleHints"; type: "QVariant" }
+        Property { name: "__styleData"; type: "QObject"; isPointer: true }
+    }
+    Component {
+        prototype: "QQuickFocusScope"
+        name: "QtQuick.Extras/DelayButton 1.0"
+        exports: ["QtQuick.Extras/DelayButton 1.0"]
+        exportMetaObjectRevisions: [0]
+        isComposite: true
+        defaultProperty: "data"
+        Property { name: "delay"; type: "int" }
+        Property { name: "__progress"; type: "double" }
+        Property { name: "progress"; type: "double"; isReadonly: true }
+        Signal { name: "activated" }
+        Property { name: "isDefault"; type: "bool" }
+        Property { name: "menu"; type: "Menu_QMLTYPE_38"; isPointer: true }
+        Property { name: "checkable"; type: "bool" }
+        Property { name: "checked"; type: "bool" }
+        Property { name: "exclusiveGroup"; type: "QQuickExclusiveGroup1"; isPointer: true }
+        Property { name: "action"; type: "QQuickAction1"; isPointer: true }
+        Property { name: "activeFocusOnPress"; type: "bool" }
+        Property { name: "text"; type: "string" }
+        Property { name: "tooltip"; type: "string" }
+        Property { name: "iconSource"; type: "QUrl" }
+        Property { name: "iconName"; type: "string" }
+        Property { name: "__position"; type: "string" }
+        Property { name: "__iconOverriden"; type: "bool"; isReadonly: true }
+        Property { name: "__action"; type: "QQuickAction1"; isPointer: true }
+        Property { name: "__iconAction"; type: "QQuickAction1"; isReadonly: true; isPointer: true }
+        Property { name: "__behavior"; type: "QVariant" }
+        Property { name: "__effectivePressed"; type: "bool" }
+        Property { name: "pressed"; type: "bool"; isReadonly: true }
+        Property { name: "hovered"; type: "bool"; isReadonly: true }
+        Signal { name: "clicked" }
+        Method { name: "accessiblePressAction"; type: "QVariant" }
+        Property { name: "style"; type: "QQmlComponent"; isPointer: true }
+        Property { name: "__style"; type: "QObject"; isPointer: true }
+        Property { name: "__panel"; type: "QQuickItem"; isPointer: true }
+        Property { name: "styleHints"; type: "QVariant" }
+        Property { name: "__styleData"; type: "QObject"; isPointer: true }
+    }
+    Component {
+        prototype: "QQuickFocusScope"
+        name: "QtQuick.Extras/Dial 1.0"
+        exports: ["QtQuick.Extras/Dial 1.0"]
+        exportMetaObjectRevisions: [0]
+        isComposite: true
+        defaultProperty: "data"
+        Property { name: "__wrap"; type: "bool" }
+        Property { name: "activeFocusOnPress"; type: "bool" }
+        Property { name: "tickmarksVisible"; type: "bool" }
+        Property { name: "value"; type: "double" }
+        Property { name: "minimumValue"; type: "double" }
+        Property { name: "maximumValue"; type: "double" }
+        Property { name: "hovered"; type: "bool"; isReadonly: true }
+        Property { name: "stepSize"; type: "double" }
+        Property { name: "pressed"; type: "bool"; isReadonly: true }
+        Property { name: "style"; type: "QQmlComponent"; isPointer: true }
+        Property { name: "__style"; type: "QObject"; isPointer: true }
+        Property { name: "
